@@ -1,1 +1,19 @@
-commands for git bash
+Common commands for git bash to remember
+
+Create repository:
+git init <dir name>
+Clone:
+git clone <repo url>
+
+Creating new file:
+echo "/message" >> file.example
+git add file.example
+
+Commiting:
+git commit [-a //if add isn't used first][-m "message"]
+
+Add remote: 
+git remote add <remote name> <remote url ffrom github>
+
+Push:
+git push -u <remote_name> <branch name>
